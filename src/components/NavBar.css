@@ -1,0 +1,107 @@
+.nav-style {
+    background:rgba(128, 128, 128, 0.4);
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-style ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up {
+    height: 80%;
+    width: 15%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.sign-up:hover {
+    background: white;
+    color: rgba(128, 128, 128, 0.4);
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 1px black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.sign-up a:hover {
+    color: white;
+    text-shadow: 0 0 1px black;
+}
+
+.form-sign-wrapper {
+    margin: 0 auto;
+}
+
+.form-sign-wrapper h2 {
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px;;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.nav-ul li {
+    width: 17%;
+    font-size: 0.8rem !important;
+}
+
+#badge-div {
+    display: block !important;
+    padding: 10px !important;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.single-exercise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: rgba(128, 128, 128, 0.3);
+}
+
+.single-exercise > .header-ex {
+    text-align: center !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.single-exercise p {
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid green;
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+}
+
+.single-exercise p:last-child {
+    border: none;
+}
