@@ -27,7 +27,7 @@ class Home extends Component {
             <Link to={"/Exercise"}> Exercise</Link>
             <p>Review your exercises!</p>
             <div className="exc-lst">
-            Dont forget to limber up!
+            Dont forget to limber up! Not going to lie im doing this for a free github commit
             
             
             </div>
